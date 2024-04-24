@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif; /* font */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+.nav-center {
+    display: flex; /* makes it in center */
+    justify-content: space-between;
+      /*first item will be positioned at the start of the container, 
+    the last item will be positioned at the end of the container, and 
+    the space between the first and last items will be
+     distributed evenly among them. */
+    align-items: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;   /* makes simple and hex in line */
+    
+}
+
+.nav-links li {
+    margin-right: 1rem;  /* space betwn the simple and hex */
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white; /* gives color to text */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;/* This rule sets the direction of the main axis for the flex container. */
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+     /*height: 100vh;: This rule sets the height of the .container element
+     to 100 viewport height units (vh).
+      This ensures that the container takes up 
+      the full height of the viewport (the visible area of the browser window) 
+      regardless of the screen size.*/
+}
+
+.color {
+    color: #1d1e1e; /* color of text that show color */
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: gray;
+    cursor: pointer;      /* button color */
+    font-size: 1rem;
+    border-radius: 10px;
+
+}
+
+.btn:hover {
+    background-color: #807f7f;
+}
